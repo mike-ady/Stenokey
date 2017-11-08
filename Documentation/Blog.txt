@@ -1,0 +1,105 @@
+Stenokey Project
+
+Stenokey is an open source do it yourself stenographic keyboard project.  It is aimed 
+at makers with some electronics experience (soldering) and who own a 3D printer 
+or who have a friend with a 3D printer, though you may be 
+able to complete this project if you know how to use a soldering iron and 
+can find an inexpensive 3D printing service.  (My local public library 
+will print objects very inexpensively, though I think that they might balk at 
+printing the entire Stenokey part-set all at once.)
+
+Stenokey connects to any desktop or laptop PC that has a USB port.  It is meant 
+to work with the Open Steno Project's Plover software, which runs on Linux, Mac and 
+Windows.  It supports NKRO keyboard emulation, as well as the serial Gemini PR, 
+TX Bolt and ProCAT protocols.  In theory, the Stenokey should be compatible 
+with commercial steno software that supports those serial protocols.
+
+Stenokey uses the Matias Quiet Linear Switches, which won't stick or stall when 
+keys are pressed off center.  Stenokey's smarts come from the Arduino compatible 
+Teensy 2.0.  This microcontroller is capable of emulating both an NKRO keyboard 
+and a serial port over USB.  
+
+The Stenokey circuit board is based on the simple design principle of putting everything on 
+the same circuit board.  The advantages are improved reliability, the 
+elimination of unecessary cables and connectors, simplified assembly, 
+reduced assembly time, reduced part count and lower material cost.  
+Hopefully the low material cost puts this project in the realm of possibility for
+more people.
+
+Except for the plastic parts the cost of materials comes out to less than USD$50.  Of course
+if you account for shipping and product minimum orders, you'll spend more.
+
+Distribution
+
+All of the Stenokey design files are available on Github.  The STL files for just 
+the 3D printed parts are also available on Thingiverse.  The circuit boards can be 
+purchased from SeeedStudio.  Except for the firmware and 
+electrical schematic, the project is licensed with the CreativeCommons-ShareAlike 
+license.  The firmware and schematic are licensed by Emanuele Caruso under the 
+GNU GPL version 3 license.  All of the tools used to create the Stenokey project 
+are open source or are freely available so that the design can easily be modified 
+within the constraints of those licenses.  To summarize both the CreativeCommons 
+and GNU licenses, you can of course create copies of this project for your own 
+use.  You can republish or create derivative works from this project and even sell them as products, 
+however if you do, you must give credit to the original author(s) and share 
+your own work.  Be sure to read the actual licenses for all of the details.  
+
+Credit
+
+I want to thank Mirabai Knight for getting the Open Steno Project started and keeping
+it going with her endless enthusiasm.  I borrowed heavily from Emanuele Caruso's 
+Stenoboard project.  I also borrowed from Jason Cemra's Stenotoppers project,
+Joshua Lifton's Stenosaurus project, and Joshua's and Ted Morin's contributions 
+to the Plover project.  This project doesn't happen without the Arduino project, 
+the Teensy and Teensyduino software from PJRC, and the Matias key switches.
+
+History
+
+The Stenokey project gained its name when I ran across Jason Cemra's Stenotoppers
+on Mirabai's Plover blog.  I had recently purchased a small 3D printer, so 
+I decided to try printing one of Jason's key caps.  It printed amazingly well. 
+Printing that key was the start of the project as one thing lead to another.  
+
+I was already familiar with Joshua Lifton's 
+Stenosaurus project from the Plover blog, so I drew up some steno keys based on 
+Joshua's key outlines, (while borrowing some of Jason's 3D design techniques).  
+Those keys also printed well enough.  I had drawn the keys in OpenSCAD, so 
+I was quickly able to generate several different variations of keys with 
+various widths and offsets.
+
+Next I bought some of the Matias Quiet Linear key switches.  (Those key switches 
+were graciously made available by Matias through Joshua's efforts.)  I was able to get
+my key tops to fit the Matias key switches without much effort (and a fingernail 
+file).  And gosh, unlike the "other" key switches, the Matias key switches 
+don't stick or stall when you press on a key off center.
+
+I was also familiar with Emanuele Caruso's Stenoboard project.  All of his
+designs for the Stenoboard project are available on line, including the 
+electrical schematics and the firmware.  Starting from Joshua Lifton's keyboard 
+layout, I referenced Emanuele's schematics to create the Stenokey 
+circuit board.  With the different keyboard layout and schematic, it was 
+also necessary to modify Emanuele's firmware, (which was simple enough to do 
+since he writes very excellent code).
+
+In the middle of this I contacted Mirabai, because without her none of this 
+happens.  She was highly supportive throughout the project and she agreed to 
+check out the design so I sent her my prototype to test.  
+
+Around the time that I contacted Mirabai, I decided that my prototype design 
+was rather naked; too naked to send to someone else.  So I designed some more 
+plastic parts to cover the prototype's bare bottom and top.  
+Those covers weren't very professional, so I designed a clamshell case that
+neatly encloses all of the electronics.  The covers and case parts were 
+all too big to print on my tiny 3D printer, so I had to get a friend to print 
+them for me.
+
+Designing an open source project like this, ordering parts and building 
+a few prototypes are only half of the work.  
+I probably spent more time cleaning up the files and directories,
+writing documents and getting everything set up for distribution on 
+Github, Thingiverse and SeeedStudio.  Hopefully the project will be well received.
+
+
+
+
+

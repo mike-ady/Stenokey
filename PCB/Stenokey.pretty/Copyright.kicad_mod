@@ -1,0 +1,17 @@
+(module Copyright (layer F.Cu) (tedit 5A022376)
+  (fp_text reference REF** (at 0.2 -4) (layer F.SilkS) hide
+    (effects (font (size 1.5 1.5) (thickness 0.2)))
+  )
+  (fp_text value ~ (at 0 -0.75) (layer F.SilkS) hide
+    (effects (font (size 1.5 1.5) (thickness 0.2)))
+  )
+  (fp_text user "It is licensed under the GNU GPL V3." (at 2.3 3.8) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_text user "This circuit board is part of the open source Stenokey project." (at 12.1 1.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_text user "Copyright © 2017, Mike Ady" (at -1.4 -0.8) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+)
