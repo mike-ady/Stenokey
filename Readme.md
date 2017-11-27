@@ -11,7 +11,7 @@ been tested and are working.  Here is a picture of the prototype:
 
 ![Documentation/Prototype.jpg](Documentation/Prototype.jpg)
 
-A case has been designed but it has not been printed or tested yet:  
+A clam shell case has been designed but it has not been printed or tested yet:  
 
 ![Documentation/Stenokey.png](Documentation/Stenokey.png)
 

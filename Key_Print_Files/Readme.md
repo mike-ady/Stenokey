@@ -6,10 +6,9 @@ This file is licensed under the Creative Commons Attribution-ShareAlike license.
 
 DO NOT PRINT ALL OF THE FILES IN THIS DIRECTORY!
 
-DO NOT PRINT SINGLE KEYS!  Always print at least two keys at a time 
+Avoid printing single keys!  Try to print at least two keys at a time 
 to avoid over heating and distortion of the key stems.  Always 
-print with the printer's cooling fan enabled above the first layer, 
-(for the same reason).
+print with the printer's cooling fan enabled above the first layer.
 
 A standard steno keyboard consists of 10 sets of 3 consonant keys 
 and a set of 4 vowel keys.  This can be obtained by printing 10 
