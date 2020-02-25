@@ -6,13 +6,6 @@ Stenokey is an open source do it yourself stenographic keyboard project.  It is 
 at makers with some electronics experience (soldering) and who own a 3D printer 
 or who have a friend with a 3D printer.
 
-This project is not quite ready yet!  The key tops and circuit board have 
-been tested and are working.  Here is a picture of the prototype:  
-
-![Documentation/Prototype.jpg](Documentation/Prototype.jpg)
-
-A clam shell case has been designed but it has not been printed or tested yet:  
-
 ![Documentation/Stenokey.png](Documentation/Stenokey.png)
 
 Stenokey connects to any desktop or laptop PC that has a USB port.  It is meant 
