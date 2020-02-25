@@ -1,6 +1,6 @@
 # Stenokey Case Readme
 
-Copyright © 2017, Mike Ady  
+Copyright © 2017, 2020, Mike Ady  
 This file is part of the open source Stenokey project.  
 This file is licensed under the Creative Commons Attribution-ShareAlike license.
 
@@ -23,7 +23,7 @@ variant that is chosen.
 The case base is available in 2 variants.  The location of the 
 interface components has no effect on the shape of the base so 
 there are only variants which place the USB cable on the left 
-or right.  Only one of the case top variants need be printed,
+or right.  Only one of the case base variants need be printed,
 and it must match the case top variant chosen. 
 
 ## Print Instructions

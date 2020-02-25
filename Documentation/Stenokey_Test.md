@@ -1,8 +1,7 @@
 # Programming and Testing the Stenokey Circuit Board
 
 Copyright © 2017, Mike Ady  
-This file is part of the open source Stenokey project.  
-This file is licensed under the Creative Commons Attribution-ShareAlike license.
+This file is part of the open source Stenokey project.  This file is licensed under the Creative Commons Attribution-ShareAlike license.
 
 It is important to check that the Stenokey circuit board is working before soldering down the key switches and the key matrix in case there is a problem that the key matrix might hide.  
 

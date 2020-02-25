@@ -32,7 +32,7 @@
 // are wired to an extra "row", to simplify decoding.  The function key 
 // handling routines were replaced with a single options handling routine.
 // 4.  A parenthesis error in the debounce logic was corrected.
-// 5.  The NKRO, Gemini and TxBolt protcol functions were simplified.
+// 5.  The NKRO, Gemini and TxBolt protocol functions were simplified.
 // 6.  The Procat and Diagnostic protocols were added.
 
 #define ROWS			4
@@ -326,7 +326,7 @@ void sendChordNkro()
   Keyboard.releaseAll();
 }
  
-// Gemini Protcol
+// Gemini Protocol
 
 // The Gemini protocol sends a packet of 6 bytes.  The first byte
 // has its sign bit set, while the remaining bytes do not.
@@ -377,7 +377,7 @@ void sendChordGemini()
     Serial.write(chordBytes[i]);
 }
 
-// TX Bolt Protcol
+// TX Bolt Protocol
 
 // TX Bolt uses a variable length packet. Only those bytes that have active
 // keys are sent. The header bits indicate which keys are being sent. They
@@ -426,9 +426,9 @@ void sendChordTxBolt()
 
 // The Procat protocol sends a packet of 4 bytes.  The first three
 // bytes are bit encoded.  The first byte has its sign bit cleared.  
-// The last byte is has a value of 0xFF.
+// The last byte has a value of 0xFF.
 
-// Following table is from the OpenStenoProject.  Entries are in 
+// The following table is from the OpenStenoProject.  Entries are in 
 // msb to lsb order.
 
 // "@",  "#",  "S-", "T-", "K-", "P-", "W-", "H-",

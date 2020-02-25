@@ -1,6 +1,6 @@
 # The Stenokey User's Manual
 
-Copyright © 2017, Mike Ady  
+Copyright © 2017, 2020, Mike Ady  
 This file is part of the open source Stenokey project.  
 This file is licensed under the Creative Commons Attribution-ShareAlike license.
 
@@ -34,9 +34,7 @@ At the time of writing, there was an issue with Plover's support for numeric key
 
 ## Plover Software Installation
 
-If you built your Stenokey keyboard yourself, then you will likely 
-already have Plover installed on your PC and you can skip this 
-section.  There is also no need to install Plover if you plan to use commercial stenography software exclusively.
+If you built your Stenokey keyboard yourself, then you will likely already have Plover installed on your PC and you can skip this section.  There is also no need to install Plover if you plan to use commercial stenography software exclusively.
 
 To install Plover, open an Internet browser on your PC then open the following web page:
 
@@ -44,15 +42,15 @@ To install Plover, open an Internet browser on your PC then open the following w
 
 Follow the instructions on that page and download the "latest stable version" for your operating system.  Follow the instructions specific to your operating system to install the software.  
 
-On Windows, you may need to run Plover "As Administrator" to get it to work properly.  
-
 ## Configuring Plover
 
-Connect the Stenokey to a USB port on your PC if you haven't done so already.  Open Plover, click on the Configure button then select the Machine tab on the dialog that opens.  Click on the "Machine:" drop down listbox and select the protocol that you configured the Stenokey for.  If you have configured the Stenokey for NKRO Keyboard mode, select "Keyboard" as the machine type.  Click on OK to dismiss the dialog box.
+Note:  On Windows, you will need to run Plover "as administrator" to allow Plover to translate keystrokes for your word processing software, etc.  To run Plover as administrator, right click on the Plover shortcut and select "Run as administrator".
+
+Connect the Stenokey to a USB port on your PC if you haven't done so already.  Open Plover, click on the Configure button then select the Machine tab on the dialog that opens.  Click on the "Machine:" drop down listbox and select the protocol that you configured the Stenokey for.  If you have configured the Stenokey for NKRO Keyboard mode, select "Keyboard" as the machine type.
 
 All of the non-NKRO protocols use the USB serial interface and you will need to select a serial port for Plover to connect to.  Click on the Scan button to scan for available serial ports on your PC.  If more than one serial port appears in the "Port" drop down listbox and you aren't sure which one is associated with the Stenokey, unplug the Stenokey and click on the Scan button in Plover again.  One serial port should disappear and that should be the Stenokey's port.
 
-Use the defaults for the rest of the settings on the Machine tab and click on OK to dismiss the dialog box.  
+Once you've set the serial port, use the defaults for the rest of the settings on the Machine tab and click on OK to dismiss the Configuration dialog box.
 
 ## Using the Stenokey
 
@@ -62,6 +60,12 @@ In Keyboard mode, Plover will also intercept keystrokes on your PC or laptop key
 
 On Windows, you may find that Stenokey's keystrokes are appearing in Plover's paper tape window, but they fail to appear in which ever text editor or word processor window that has the focus.  In this case, you will need to exit Plover then rerun it "As Administrator".  Closing the Plover windows does not cause Plover to exit.  To quit Plover, open the tray on the taskbar and right click on the Plover icon (a stylized steno key) then select Quit Plover.
 
+## Troubleshooting
+
+If you are having trouble seeing Stenokey keystrokes in your word processor, verify that you have selected the right protocol and serial port.  (Refer to the Configuring Plover section above.)  You may need to disconnect and reconnect.  To do that, click on the "recycle" button in Plover.  Make sure that Plover output is enabled.  That is, make sure that the Enable radio button in Plover is selected.  
+
+The Plover paper tape display is you friend when it comes to tracking down connection issues.  On Windows, if you find that Stenokey's keystrokes are appearing in Plover's paper tape window, but they fail to appear in which ever text editor or word processor window that has the focus, you will need to exit Plover then rerun it "As Administrator".  Closing the Plover windows does not cause Plover to exit.  To quit Plover, open the tray on the taskbar and right click on the Plover icon (a stylized steno key) then select Quit Plover from the pop up menu.  After exiting Plover, restart it making sure to run it as administrator.
+ 
 ## What Next?
 
 If you already know some steno, you likely know what you want to do next.  If you're a total newbie to steno, the most important thing to learn first is how to place your fingers on the home row of the keyboard.  The "Learn Plover!" book by Zack Brown will teach you that and many other important skills while paying special attention to the Plover program.  The book is highly recommended and is available on line in paperback at Amazon.com.  You can also view the book for free on line here:
@@ -80,9 +84,9 @@ Follow the instructions on that page to install the package and run it.
 
 The documentation for Steno Tutor is somewhat sparse.  To change settings, you will need to edit the "session.properties" file with a text editor.  That file is found in the data sub directory of the Steno Tutor program, (specific to your operating system).  
 
-Steno Tutor will not proceed unless you have entered exactly the word that it has highlighted.  Use the asterisk key (on the Stenokey) to delete incorrect entries.  (The Backspace key on your regular keyboard can be used to delete words one character at a time, but that is less useful.)  
+Steno Tutor will not proceed unless you have entered exactly the word that it has highlighted.  Use the asterisk key (on the Stenokey) to delete incorrect entries.  The Backspace key on your regular keyboard can be used to delete words one character at a time, but that is less useful.  
 
-Use the Tab key on your regular keyboard to pause Steno Tutor.  (You can also stroke "TA*B" on the Stenokey to the same effect.)  Once Steno Tutor is paused, striking any key on the Stenokey will release Steno Tutor's timer again.
+Use the Tab key on your regular keyboard to pause Steno Tutor.  (You can stroke "TA*B" on the Stenokey to the same effect if you are also using Plover.)  Once Steno Tutor is paused, striking any key or chord on the Stenokey will start Steno Tutor's timer again.
 
 Steno Tutor expects words to be typed in lower case.  If you find that characters are appearing in upper case, use the Caps Lock key on your regular keyboard to toggle the case.  You may need to strike the Caps Lock key twice for it to take effect.  
 

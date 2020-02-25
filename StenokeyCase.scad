@@ -144,7 +144,7 @@ D40PosY=116.0;
 
 InsertHeight=6.4;
 InsertD1=4.7;
-InsertD2=5.23;
+InsertD2=6.0;
 
 // Generate models -----------------------------------
 

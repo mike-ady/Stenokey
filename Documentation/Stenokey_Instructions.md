@@ -1,6 +1,6 @@
 # Stenokey Build Instructions
 
-Copyright © 2017, Mike Ady  
+Copyright © 2017, 2020, Mike Ady  
 This file is part of the open source Stenokey project.  
 This file is licensed under the Creative Commons Attribution-ShareAlike license.
 
@@ -8,7 +8,7 @@ This file is licensed under the Creative Commons Attribution-ShareAlike license.
 
 Once the plastic parts have been printed, you should be able to build the Stenokey in an afternoon or an evening.  However, take your time.  If you get tired or worse, cranky, set things aside and complete the project at another time when your outlook is better.
 
-1.  Bill of materials:
+1.  Bill of materials (see Stenokey.xls for part numbers and ordering information):
 
 	40 small signal diodes  
 	1 5 mm dome LED  
@@ -59,14 +59,13 @@ pegs that stick out of the top of the Stenokey base.  You should end up with the
 
 	If any of the key switches are loose, you might consider using a drop of cyanoacrylate glue to glue each loose switch in place.  Be sure that each switch is fully seated before you glue it.  Use glue sparingly.  The Matias key switches are not sealed, and if glue wicks into a switch, it will ruin the switch.
 
-	If any of the key switches won't fit at all, use a sharp knife to scrape a few times along each side of the key switch hole.  Repeat as necessary until a switch can be pressed into place.  Repeat as necessary for the remaining switches and mount all of the switches in their holes.  
+	If any of the key switches won't fit at all, DO NOT FORCE the switches, use a sharp knife to scrape a few times along each side of the key switch hole.  Repeat as necessary until a switch can be pressed into place.  Repeat as necessary for the remaining switches and mount all of the switches in their holes.  
 
 	Be sure to orient the switches so that the pins that stick out of the bottom of each switch are oriented towards (i.e. are closer to) the top edge of the key matrix (i.e. the edge that is opposite from the 4 vowel keys).  Make sure that all key switch pins are not bent and are sticking straight out from the bottoms of the switches.
 
 	Check the fit of the key matrix on the top of the circuit board.  Each pin should fit down into its corresponding hole in the circuit board.  Be careful to avoid bending any pins.  If some of the pins won't come through the board, don't force them to fit; separate the key matrix from the circuit board, straighten any bent pins and try again.  Remove the key matrix from the board when you are done.
 
-5.  Check to make sure that the Teensy is working.  Connect the Teensy to your computer using the USB mini-B cable.  The LED on
-the Teensy should start blinking.  Disconnect the Teensy.
+5.  Check to make sure that the Teensy is working.  Connect the Teensy to your computer using the USB mini-B cable.  The LED on the Teensy should start blinking.  (Each Teensy is shipped preprogrammed with a blink program.)  Disconnect the Teensy.
 
 6.  Solder the Teensy onto its headers.  The headers are provided as a longer strip of snappable header pins.  Break off two headers of 12 pins each.  It may be helpful to use needle nose pliers to grasp the retainer on the pin next to where you want to break the strip.  Then bend the strip, with your fingers close to the pliers, until it breaks.
 
@@ -76,7 +75,7 @@ the Teensy should start blinking.  Disconnect the Teensy.
 
 	If you have liquid flux, use it, but use it sparingly.  There is seldom enough flux provided in the core of rosin core solder to solder header pins, and the extra flux will help to guarantee that you get a good solder joint every time.
 
-	Note that while the Stenokey circuit board has additional holes matching the Teensy footprint, only pins adjacent to the long edges of the Teensy are actually in use; there is no need to place pins in the remaining holes.
+	Note that while the Stenokey circuit board has additional holes matching the Teensy footprint, only pins adjacent to the long edges of the Teensy are actually used; there is no need to place pins in the remaining holes.
 
 7.  READ through this step completely before proceeding.  DO NOT solder any of the key switches until after you have completely tested the circuit board (in step 8).  
 
@@ -124,8 +123,12 @@ the Teensy should start blinking.  Disconnect the Teensy.
 
 11.  Once you have tested all of the key switches, you can remove the flux from the back of the board.  Be sure to use alcohol or flux remover sparingly to avoid having it migrate to the top of the board.  The Matias key switches are not sealed.  As with the rotary switches, alcohol or flux remover can wick into the key switches and flux residue can get into the switches and ruin them.  
 
-12.  Using a hot soldering iron, insert the 8 heat set inserts into the holes in the pads on the top cover.  You may find it helpful to hold each insert in place with a pair of needle nose pliers until the plastic starts to flow.  Push each insert down into its hole, until its top surface is flush with the top of its pad, or just slightly below.  
+12.  Using a hot soldering iron, insert the 8 heat set inserts into the holes in the pads on the top cover.  Push each insert down into its hole, until its top surface is flush with the top of its pad, or just slightly below.  Use gentle force and push straight down with the soldering iron, so that the inserts don't end up skewed.  
 
-	Be sure to push straight down with the soldering iron, so that the inserts don't end up skewed.  It takes a moment for the plastic to harden.  You can use an M3 screw and quickly screw it into an insert then use it to straighten out an insert if it is skewed.  
+	If some plastic oozes up while inserting the heat set inserts, wait until the molten plastic has hardened, but is still warm (about a minute).  Then slice off the excess plastic with a sharp knife.  The plastic cuts most easily when it is warm, but not soft.  If you need to push an insert deeper or right a slightly off skew insert, you shouldn't have any trouble.  The inserts are quite forgiving as long as you use gentle force.  
 
-13.  Mount the circuit board onto the pegs on the base of the case.  Fit the top cover to the base then screw in the 8 M3 screws to affix the cover to the base.  Do not over tighten the screws.   Insert the key tops into the key switches.  At this point, the Stenokey is complete.  Plug in the USB cable and the Stenokey is ready to use. 
+13.  Mount the circuit board onto the pegs on the base of the case.  Fit the top cover to the base then screw in the 8 M3 screws to affix the cover to the base.  Do not over tighten the screws.  Insert the key tops into the key switches.  At this point, the Stenokey is complete.  Plug in the USB cable and the Stenokey is ready to use. 
+
+14.  (Optional)  As seen in pictures of the Stenokey, a logo has been affixed to the case.  The logo was cut from standard sign making adhesive vinyl film using a craft cutter, Cricut Explore.  The file StenoKeyLogo.svg (in the main distribution directory) was imported into Cricut Design Space, and resized there.  The recommended size is approximately 75 mm x 6 mm.  (The object height can be set to 1/4", resulting in a width of just under 3".)     
+
+	The logo will need to be transferred to transfer tape and it will need to be weeded before applying the logo to the Stenokey body.  These techniques are beyond the scope of this document, however there are numerous short tutorials on weeding, reverse weeding and applying vinyl labels, which are available on YouTube and other sites on the Internet.  
